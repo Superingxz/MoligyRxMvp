@@ -62,7 +62,7 @@ dependencies {
         exclude module: 'support-annotations'
         exclude module: 'butterknife-annotations'
     }
-    compile 'me.moligy.mvp:arms:2.2.0'
+    compile rootProject.ext.dependencies["moligy-mvp-arms"]
     //test
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
